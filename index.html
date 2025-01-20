@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Manager</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="app.js"></script>
+  <div class="container">
+    <h1>📚  Book Manager</h1>
+    <div class="form-container">
+      <input type="text" id="bookName" placeholder="Kitob nomi" />
+      <input type="text" id="authorName" placeholder="Muallif nomi" />
+      <input type="number" id="bookYear" placeholder="Yil" />
+      <button id="addBookBtn">Qo'shish</button>
+    </div>
+    <table id="bookTable">
+      <thead>
+        <tr>
+          <th>Kitob nomi</th>
+          <th>Muallif</th>
+          <th>Yil</th>
+          <th>O'chirish</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
